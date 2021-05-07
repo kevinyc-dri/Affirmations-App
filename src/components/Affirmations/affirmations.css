@@ -1,0 +1,19 @@
+.card-columns {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.card {
+  background-color: #84CAE7 !important;
+}
+
+.card-title {
+  font-family: Futura, bold, italic;
+  font-size: 32px;
+}
+
+.media-body {
+  color: #136f63;
+  font-weight: bolder;
+}

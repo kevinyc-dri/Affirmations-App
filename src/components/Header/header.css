@@ -1,0 +1,35 @@
+.navbar-brand {
+	font-family: Futura, bold, italic;
+	font-size: 48px !important;
+	color: #84cae7 !important;
+  text-shadow: 2px 2px 4px #136F63;
+}
+
+button {
+	width: 36px;
+	height: 36px;
+}
+
+.login-button {
+	color: #136f63;
+	border: 1px solid #136f63;
+	border-radius: 50%;
+}
+
+.login-button:hover {
+	background: #84cae7;
+	color: #136f63;
+	border-color: #136F63;
+}
+
+.add-button {
+	background: rgba(255, 255, 255, 0.2);
+	color: #136f63;
+	border: 1px solid #136F63;
+	border-radius: 50%;
+}
+.add-button:hover {
+	background: #84cae7;
+	color: #136F63;
+	border-color: #136F63;
+}
