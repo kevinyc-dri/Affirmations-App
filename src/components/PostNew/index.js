@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react'
 import Modal from 'react-bootstrap/Modal'
 import { UserAuthContext, AffirmationsContext } from '../../App'
+import './modal.css'
 
 function PostNew(props) {
   const [newText, setNewText] = useState('')
@@ -13,7 +14,7 @@ function PostNew(props) {
       displayName: user.displayName,
       photoUrl: user.photoURL,
     }
-    fetch('https://affirm-bc-api.web.app/affirmations', {
+    fetch('https://affirmation-kevin-api.web.app/affirmations', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -29,7 +30,7 @@ function PostNew(props) {
       .catch(err => console.log(err))
   }
   return (
-    <Modal {...props} size="lg" centered>
+    <Modal {...props} size="lg" centered backgroundColor>
       <Modal.Header closeButton>
         <Modal.Title>
           Post an affirmation
@@ -37,15 +38,16 @@ function PostNew(props) {
       </Modal.Header>
       <Modal.Body>
         <textarea
+          className="modal-text-area"
           value={newText}
           onChange={(e) => setNewText(e.target.value)}
-          rows="3"
-          cols="40"
+          rows="6"
+          cols="91"
           placeholder="Your affirmation here...">
         </textarea>
       </Modal.Body>
       <Modal.Footer>
-        <button onClick={() => handleSubmit()}>Save</button>
+        <button className="save-button" onClick={() => handleSubmit()}>Save</button>
       </Modal.Footer>
     </Modal>
   )

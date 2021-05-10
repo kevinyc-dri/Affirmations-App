@@ -1,19 +1,27 @@
 .card-columns {
-  display: flex;
-  justify-content: space-evenly;
-  justify-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	justify-items: center;
 }
 
 .card {
-  background-color: #84CAE7 !important;
+	/* background-color: #84CAE7 !important; */
+	background-color: #EBEBDB !important;
+	opacity: 0.7;
+	padding: 20px !important;
+	border-radius: 20px !important;
+	margin: 15px;
 }
 
 .card-title {
-  font-family: Futura, bold, italic;
-  font-size: 32px;
+	font-family: Futura, bold, italic;
+	font-size: 32px;
+  
 }
 
 .media-body {
-  color: #136f63;
-  font-weight: bolder;
+	color: #136f63;
+	font-weight: bolder;
 }
+
+

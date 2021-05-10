@@ -1,8 +1,15 @@
 .navbar-brand {
 	font-family: Futura, bold, italic;
 	font-size: 48px !important;
-	color: #84cae7 !important;
-  text-shadow: 2px 2px 4px #136F63;
+	color: #403F34 !important;
+  text-shadow: 2px 2px 4px #D5E5F2;
+}
+
+.justify-content-between {
+	background: linear-gradient(90deg, #D9D4C5, #66B1F2, #6A96A7, #848C49, #403F34, #D9D4C5);
+	/* opacity: .4; */
+	height: 60px;
+	opacity: .8;
 }
 
 button {
@@ -28,6 +35,7 @@ button {
 	border: 1px solid #136F63;
 	border-radius: 50%;
 }
+
 .add-button:hover {
 	background: #84cae7;
 	color: #136F63;

@@ -16,6 +16,7 @@ function AffirmationCard({ affirmation }) {
                 {affirmation.displayName}
               </Media.Body>
               <Image
+                className="card-image"
                 roundedCircle
                 width="36"
                 height="36"
@@ -25,6 +26,9 @@ function AffirmationCard({ affirmation }) {
             </Media>
           </Card.Text>
         </Card.Body>
+        <Card.Footer>
+          <small className="text-muted">Last updated 3 mins ago</small>
+        </Card.Footer>
       </Card>
     </Col>
   )

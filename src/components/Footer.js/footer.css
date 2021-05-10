@@ -1,0 +1,20 @@
+.footer {
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	color: #041b15;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(
+		90deg,
+		#d9d4c5,
+		#403f34,
+		#848c49,
+		#6a96a7,
+		#66b1f2,
+		#d9d4c5
+	);
+	opacity: 0.7;
+}

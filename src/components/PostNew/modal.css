@@ -1,0 +1,25 @@
+.modal-content {
+	background-color: #84cae7 !important;
+	background: linear-gradient(
+		90deg,
+		#d9d4c5,
+		#66b1f2,
+		#6a96a7,
+		#d9d4c5
+	);
+	opacity: 0.9;
+  height: 400px;
+  border-radius: 20px !important;
+  color: #403F34 !important;
+}
+
+.save-button {
+	height: 50px;
+	width: 70px;
+}
+
+.modal-text-area {
+  background-color: #CBDDF0;
+  padding: 8px;
+  color: #403F34 !important;
+}

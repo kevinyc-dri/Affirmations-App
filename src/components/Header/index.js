@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <Navbar className="justify-content-between">
-        <Navbar.Brand>Affirmations</Navbar.Brand>
+        <Navbar.Brand href="#home">Affirmations</Navbar.Brand>
         <Nav>
           {user &&
             <button
@@ -24,7 +24,7 @@ function Header() {
         <LoginButton />
         </Nav>
       </Navbar>
-      <PostNew show={showModal} onHide={() => setShowModal(false)} />
+      <PostNew show={showModal} onHide={() => setShowModal(false)} /> 
     </>
   )
 }
